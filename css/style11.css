@@ -1,0 +1,72 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 30px;
+  background-color: brown;
+  overflow: hidden;
+}
+
+nav img {
+  float: left;
+  width: 12%;
+}
+
+table {
+  width: 100%;
+}
+
+table tr td {
+  padding: 50px 10px 50px 200px;
+  align-items: center;
+  font-size: 30px;
+}
+table tr td img {
+  width: 60%;
+}
+
+table tr td button {
+  background-color: yellow;
+  width: 40%;
+  height: 50px;
+  border-radius: 20px;
+}
+footer {
+  padding: 15px;
+  background-color: brown;
+  text-align: center;
+}
+
+.container-1 {
+  width: 15%;
+  height: 1000pt;
+  background-color: grey;
+  float: left;
+}
+
+.container-2 {
+  width: 85%;
+  height: 1000pt;
+  background-color: silver;
+  float: right;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul li {
+  float: right;
+  list-style: none;
+}
+
+a:hover {
+  background-color: grey;
+}
+
+table tr th {
+  border: 1px solid black;
+}
